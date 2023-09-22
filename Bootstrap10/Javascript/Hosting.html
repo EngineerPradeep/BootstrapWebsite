@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosting</title>
+</head>
+<body>
+    
+    
+    
+    <script>
+    
+    // Following two lines will run successfully due to js hoisting
+    
+    console.log(a)
+    greet()
+    function greet() {
+     console.log("Good Morning")
+    }
+    
+      var a = 9; // declaration hoisted to the top but iitialization is not
+      console.log(a)
+    
+    </script>
+    
+</body>
+</html>

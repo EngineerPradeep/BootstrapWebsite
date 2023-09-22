@@ -1,0 +1,79 @@
+.container-fluid {
+  padding: 0px 150px;
+}
+.cont{
+  background:rgb(238, 237, 237);
+  
+}
+.header2{
+ 
+}
+
+
+.fa-solid {
+  color: black;
+}
+.fa-regular {
+  background-color: yellow;
+  /* color: yellow; */
+}
+.official-text {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.5rem;
+  font-weight: 200;
+  justify-content: center;
+}
+.topbar1 {
+  justify-content: center;
+  padding-right: 70px;
+}
+.account {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+@media only screen and (max-width: 600px) {
+  .container-fluid {
+    padding: 0;
+    background:pink;
+    
+  }
+}
+
+
+
+
+
+.card-caro{
+  width: 700px;
+
+  }
+.searchbar-form{
+  display: flex;
+  padding-left: 30px;
+  
+  align-items: center;
+  
+ 
+}
+.searchbar-input{
+border: none;
+display: flex;
+flex-direction: column;
+
+}
+.last{
+align-items: center;
+}
+
+.h{
+   height: 200px;
+  align-items: center;
+  border-bottom: 5px solid red;
+}
+
+.size{
+ font-size: 2rem;
+}
+  
+  

@@ -1,0 +1,25 @@
+.card-caro{
+width: 300px;
+
+}
+
+.icon{
+position: absolute;
+color: white;
+z-index: 10;
+padding-top: 5px;
+left: 250px;
+
+}
+
+.rounded-circle{
+top: 130px;
+right: 250px;
+ width: 50px;
+ height: 50px;
+ position: relative;
+ z-index: 5;
+ justify-content: end;
+
+ 
+}

@@ -1,0 +1,125 @@
+.row{
+    height: 100%;
+}
+#green {
+    height: 100%;
+    background: #508783;
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
+.side1 {
+    position: sticky;
+   margin-top: 1px;
+   width: 230px;
+   background-color: #f6f6f6;
+   /* position: relative; */
+   height: 100%;
+   overflow: auto;
+   padding: 10px;
+   border-right: 1px solid lightgray;
+ }
+ .side-items {
+   justify-self: end;
+   padding: 10px;
+   font-weight: 600;
+ }
+ .side-items:hover {
+   background-color: rgb(208, 208, 255);
+   border-radius: 5px;
+   font-weight: 600;
+ }
+ .side-items3 {
+   padding: 10px;
+   font-weight: 600;
+ }
+ .side-items3:hover {
+   background-color: rgb(208, 208, 255);
+   border-radius: 5px;
+   font-weight: 600;
+ }
+  .side-items4 {
+   padding: 10px;
+   font-weight: 600;
+ }
+ .side-items4:hover {
+   background-color: rgb(208, 208, 255);
+   border-radius: 5px;
+   font-weight: 600;
+ } 
+ 
+ .col-10{
+  background-color: lightgray;
+ }
+ .nav-item{
+ font-size: 1rem;
+  padding: 0px 0px 0px 20px;
+  align-items: start;
+ }
+ .nav-item1{
+ justify-content: end;
+  margin-left: auto; 
+  display: flex;
+   margin-right: 500px; 
+   
+ }
+ .navbar-nav{
+ align-items: center;
+ }
+ .nav{
+  padding: 20px;
+ }
+ .card-container {
+    margin-left: 5px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: 40px;
+  }
+  .card-head {
+    margin-right: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    border: 2px solid#19303d;
+    background-color: white;
+    border-radius: 1px;
+    padding-bottom: 5px;
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+    padding-top: 80px;
+    margin-top: 20px;
+  }
+  
+  .card1-container{
+    margin-left: 5px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+  .card1{
+  padding: 20px 20px;
+   display: flex;
+  }
+  .card-body{
+   padding-top: 5px;
+   margin-right: 20px;
+   background-color: #508783; 
+  }
+  .image{
+  margin-right: 40px;
+   width: 100%;
+  }
+  
+  .d-flex{
+   padding-left: 130px;
+  }
+  

@@ -1,0 +1,16 @@
+submit.addEventListener("click", (e) => {
+    e.preventDefault()
+    let titlec = title.value
+    let descc = desc.value
+    localStorage.setItem("todo", JSON.stringify([titlec,descc]) )
+    console.log(e)
+    title.innerHTMl = `  
+    <h1>${titlec}</h1>
+    <p>${descc}</p>
+    `
+    })
+    
+    deleteBtn.addEventListener("click", (e) => {
+    e.preventDefault()
+     localStorage.removeItem("todo")
+    })

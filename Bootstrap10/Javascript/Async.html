@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async and Wait</title>
+</head>
+<body>
+    
+    <script>
+    
+     async function pradeep(){
+    let delhiWeather = new Promise((resolve,reject)=>{
+    
+        setTimeout(()=>{
+            resolve("27 Deg")
+        }, 2000)
+    })
+    
+    let bangalorWeather = new Promise((resolve,reject)=>{
+     setTimeout(()=>{
+        resolve("21 Deg")
+      }, 5000)
+      })
+
+    //  delhiWeather.then(alert)
+    //  bangalorWeather.then(alert)
+     console.log("Fetching Delhi Weather Please wait ...")
+    let delhiW = await delhiWeather
+    console.log("Fetching Delhi Weather: " + delhiW)
+    console.log("Fetching Delhi Weather Please wait ...")
+    let bangaloreW = await bangaloreWeather
+    console.log("Fetching Delhi Weather: " + bangaloreW)
+    return [delhiW, bangaloreW]
+   }
+  
+     const cherry = async () => {
+        console.log("Hey I am cherry and I am waiting")
+     
+     }
+  
+  
+    //  const main1 = async () {
+    //    console.log("Welcome to weather control room")
+    //    let a = await harry()
+    //    let  b = await cherry()
+    //     }
+        
+    //     main1()
+  
+     console.log("Welcome to weather control room")
+     let a = pradeep()
+     a.then((value) => {
+         console.log(value)
+     })
+     
+    
+    </script>
+    
+    
+    
+</body>
+</html>

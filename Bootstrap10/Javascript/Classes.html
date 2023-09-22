@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes</title>
+</head>
+<body>
+    
+    
+    <script>
+    // class RailwayForm{
+    // submit(){
+    //  alert("form submitted")
+    // }
+    // cancel(){
+    //  alert( name +  "This form is cancelled")
+    // }
+    // fill(givenname){
+    //   this.name = givenname
+    // }
+    // }
+    // let rajForm = new RailwayForm()
+    // rajForm.fill("Raj")
+    // let rohan = new RailwayForm()
+    
+    // rajForm.fill("Raj")
+    // rajForm.submit()
+    // rohanForm.submit()
+    // rohanForm.cancel()
+    
+    class RailwayForm{
+     submit(){
+      alert(this.name + ": Your form is submitted")
+     }
+     cancel(){
+      alert(this.name + ": this form is cancelled")
+     }
+     fill(givenname){
+     this.name = givenname
+     }
+    }
+    let harryForm = new RailwayForm()
+       harryForm.fill("harry")
+       let rohanForm = new RailwayForm()
+       rohanForm.fill ("Rohan")
+       harryForm.submit()
+       rohanForm.submit()
+       rohanForm.cancel()
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,121 @@
+.navbar {
+  padding: 10px 50px;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+
+.navbrand {
+  margin-top: 10px;
+  color: #e93838;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 40px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+
+
+.navbar-item{
+  height: 40px;
+  border: 3px;
+  width: 400px;
+  margin-left: 200px;
+  text-align: end;
+  justify-content: space-between;
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 5px 20px;
+  align-items: center;
+  display: flex;
+} 
+.a {
+  border-left: 2px solid;
+  padding-left: 20px;
+}
+.b {
+  border-left: 2px solid;
+  padding-left: 20px;
+}
+.circle {
+  background-color: #e93838;
+  text-align: center;
+  align-items: center;
+  padding: 2px;
+  color: white;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.navtop-right {
+  padding-right: 20px;
+  padding-left: 200px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: center;
+  margin-right: 50px;
+}
+.icon {
+  padding-left: 15px;
+}
+
+.navright {
+  display: flex;
+  border: 1px solid;
+  padding-left: 10px;
+  margin-right: 40px;
+  align-items: center;
+  width: 90px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.circle1 {
+  padding: 5px;
+  margin-left: 15px;
+  color: black;
+  border-radius: 100%;
+  background-color: lightgray;
+  border: 1px solid;
+  text-align: center;
+  height: 35px;
+  width: 35px;
+}
+  .container-header {
+  padding: 10px;
+}
+
+.header {
+  height: 100px;
+  border: 3px;
+  width: 700px;
+  margin-left: 200px;
+  text-align: center;
+  justify-content: space-between;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 5px 20px;
+  align-items: center;
+  display: flex;
+}
+
+.carItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+

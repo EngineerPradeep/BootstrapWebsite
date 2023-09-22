@@ -1,0 +1,111 @@
+
+.b{
+background-image: url("https://mobirise.com/extensions/glassm5/corporate/assets/images/mbr.jpg");
+}
+.navbar-brand{
+
+ padding-left: 40px;
+font-weight: 700;
+ font-size: 2rem;
+}
+.navright{
+ padding-left: 210px;
+ 
+}
+
+/* .navbar{
+    background-image: url("https://mobirise.com/extensions/glassm5/corporate/assets/images/mbr.jpg");
+   
+}
+.h{
+
+    background-image: url("https://mobirise.com/extensions/glassm5/corporate/assets/images/mbr.jpg");
+
+} */
+.h{
+ /* background-color: rgb(255,255,255); */
+
+}
+
+
+.nav-item{
+font-size: 1.5rem;
+font-weight: 400;
+ justify-content: center;
+ margin-right: 40px;
+ 
+}
+.btn {
+  padding-left: 20px;
+  height: 50px;
+  border-radius: 40px;
+}
+.k{
+padding-right: 100px
+}
+.f{
+background-color: aqua;
+
+}
+
+
+.j{
+  width: 800px;
+  height: 550px;
+}
+.t{
+  font-size: 6rem;
+  font-weight: 700px;
+  
+}
+.y{
+ z-index: 5;
+  padding-left: 30px;
+
+  background: rgba( 255, 255, 255, 0.55 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  /* border-radius: 10px; */
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.c{
+ border-radius: 20px;
+}
+.round{
+top: 0;
+
+background: rgba( 255, 255, 255, 0.55 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  /* border-radius: 10px; */
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+ position: absolute;
+ width: 300px;
+ height: 300px;
+ border-radius: 50%;
+ margin-left: 600px
+}
+.round2{
+  top: 0;
+
+  background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    /* border-radius: 10px; */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+   position: absolute;
+   width: 120px;
+   height: 120px;
+   margin-top: 500px;
+   left: -550px;
+   /* left: -30px; */
+   /* right: 700px; */
+   /* bottom: -50px; */
+   border-radius: 50%;
+   /* margin-right: 600px */
+
+
+}

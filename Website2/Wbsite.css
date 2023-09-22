@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  padding: 10px;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  align-items: center;
+  background-color: #19303d;
+  border-bottom: 1px solid #fff;
+  z-index: 2;
+}
+.navlist {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+.nav-item {
+  letter-spacing: 1px;
+  justify-content: center;
+  font-weight: 700;
+  margin-right: 50px;
+}
+
+.title {
+  margin-right: 50px;
+  margin-left: 200px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.button-container {
+  margin-left: auto;
+  margin-left: 40px;
+  color: aliceblue;
+}
+.readMore {
+background-color: #B799FF;
+  margin-right: 300px;
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+}
+.readMore:hover{
+background: transparent;
+background-color: #B799FF;
+}
+.title {
+  padding-right: 600px;
+}
+
+.container {
+  align-items: center;
+  padding: 400px 50px 70px 50px;
+  background-image: url("https://mobirise.com/extensions/digitalm4/assets/images/background4.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  filter: brightness(60%);
+}
+
+h1 {
+  justify-content: center;
+}
+.btn {
+  justify-content: center;
+}

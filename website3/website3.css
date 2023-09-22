@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  padding-right: 20px;
+  padding-left: 20px;
+  justify-content: center;
+  height: 80px;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid black;
+}
+.navlist {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+.nav-item {
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  padding: 25px;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #19303d;
+
+}
+
+
+.button-container {
+  display: flex;
+}
+.readMore {
+  background-color: #4942e4;
+  color: white;
+  margin: 4px 15px;
+  text-align: center;
+  width: 100px;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+}
+.getread {
+  background-color: #dbdfea;
+  color: #4942e4;
+  width: 100px;
+
+  margin: 4px 15px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+}
+.title {
+  padding-right: 200px;
+  padding-top: 20px;
+  align-items: center;
+}
+.fa-solid{
+ font-weight: 900px;
+ margin-right: 20px;
+}
+
+.container {
+  padding: 100px;
+  justify-content: center;
+   background-image: url("https://mobirise.com/extensions/workflowm5/video-platform/assets/images/mbr.jpg"); 
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  filter: brightness(60%);
+}
+.v {
+  text-align: center;
+  color: #dbdfea;
+  font-size: 2.5rem;
+}
+.p {
+margin-top: 10px;
+color: #fff;
+  margin-left: 400px;
+  font-size: 1.5rem;
+  height: 40px;
+  
+  border: 0px solid #fff;
+}
+
+.card-container {
+  margin-left: 10px;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+.card-head {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+.card {
+  border: 2px dashed #19303d;
+  background-color: #ecfff494;
+  padding: 40px 60px 40px 20px;
+  border-radius: 2px;
+  padding-bottom: 10px;
+  width: 70px;
+}
+.card-text {
+  width: 10px;
+}

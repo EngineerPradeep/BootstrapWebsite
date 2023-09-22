@@ -1,0 +1,49 @@
+ .navbar{
+ background-color: black;
+    
+  }
+.nav-item{
+    display: flex;
+    flex-direction: column;  
+    
+}
+.y{
+font-size: 12px;
+}
+.h{
+font-size: 15px;
+}
+
+.icon {
+    background-color: orange;
+    padding: 6px 10px;
+    border-radius: 5px;
+  }
+  .carousel-inner{
+   height: 300px;
+  }
+  .carousel-item{
+   justify-content: center;
+  }
+  
+  .carousel img {
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 550px;
+    max-height: 550px;
+    width: auto;
+} 
+
+.carousel-inner1{
+  height: 250px;
+ }
+ .carousel img {
+  top: 0;
+  left: 0;
+  /* min-width: 100%; */
+  height: 200px;
+  max-height: 200px;
+  width: auto;
+} 
+ 

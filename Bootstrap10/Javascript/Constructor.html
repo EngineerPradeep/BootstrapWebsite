@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructor</title>
+</head>
+<body>
+    
+    <script>
+    // class RailwayForm{
+    //   constructor(givename, trainno){
+    //   console.log("CONSTRUCTOR CALLED..." + givename + " "+ trainno)
+    //   this.name = givename
+    //   this.trainno = trainno
+    //   }
+    //  submit (){
+    //  alert (this.name +": Your form is submitted for train number:" + this.trainno)
+    //  }
+    //  cancel(){
+    //  alert (this.name + ": this form is cancelled for train number:" + this.trainno)
+    //  }
+     // or
+    //  fill(givename,trainno) {
+    //   this.name = givename
+    //   this.trainno = trainno
+    //  }
+    
+    // }
+    // create a form for raj
+    // let rajForm = new RailwayForm("Raj", 56839393)
+    // rajForm.fill("raj", 222234)
+    // Create & fill a forms for Rohan
+    // let rohanForm1 = new RailwayForm("Rohan" , 222340)
+    // let rohanForm2 = new RailwayForm("Rohan", 1122345)
+    // rohanForm1.fill("rohan", 455627227)
+    // rohanForm2.fill("rohan", 345677)
+    
+    
+    
+    // rajForm.submit()
+    // rohanForm1.submit()
+    // rohanForm2.submit()
+    // rohanForm1.cancel()
+    
+    
+    
+    
+    // OR 
+    
+    
+    class RailwayForm {
+     constructor(givenname, trainno, address) {
+       console.log("CONSTRUCTOR CALLED..." + givenname + " " + trainno)
+       this.name = givenname
+       this.trainno = trainno
+       this.address = address
+     }
+     preview() {
+     alert(this.name + ": Your form is for train number:" + this.trainno + " and your address")
+     }
+     submit() {
+     alert(this.name + ": Your form is submitted for train number: " + this.trainno)
+     }
+     cancel() {
+      alert(this.name + ": This form is cancelled for train number: " + this.trainno)
+      this.trainno = 0
+     }
+    
+    }
+    
+    let rajForm = new RailwayForm("Raj", 134566,"85566,Azamgarh tishil phoolpur, Uttarpradesh")
+    rajForm.preview()
+    rajForm.submit()
+    rajForm.cancel()
+    rajForm.preview()
+    </script>
+    
+    
+</body>
+</html>

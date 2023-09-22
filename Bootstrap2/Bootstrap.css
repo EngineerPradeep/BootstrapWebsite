@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+
+  background-color: white;
+}
+
+.navbar {
+  
+  padding: 0px 0px;
+  border-bottom: 1px solid lightgray;
+
+  /* background-color: firebrick  */
+}
+
+.navbar-brand {
+  margin-top: 10px;
+  color: black;
+  font-weight: 40px;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-left: 50px;
+  margin-bottom: 10px;
+  /* padding-bottom: 10px; */
+}
+.fa-brands {
+  margin-right: 10px;
+}
+.navbar-toggler {
+  padding-left: 10px;
+}
+.d-flex {
+  /* padding-right: 800px; */
+  border: 3px;
+  width: 300px;
+  margin-right: 700px;
+  text-align: end;
+}
+.no-border {
+  border: 0;
+  box-shadow: none;
+}
+.fa-solid {
+  padding-top: 10px;
+}
+
+.f {
+  padding-right: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: none;
+  display: flex;
+}
+
+.icon {
+  margin-right: 100px;
+}
+.fa-solid {
+  margin-left: 15px;
+}
+
+
+.side1 {
+   position: sticky;
+  margin-top: 1px;
+  width: 250px;
+  background-color: #f6f6f6;
+  /* position: relative; */
+  height: 100%;
+  overflow: auto;
+  padding: 10px;
+  border-right: 1px solid lightgray;
+}
+.side-items {
+  padding: 10px;
+  font-weight: 600;
+}
+.side-items:hover {
+  background-color: rgb(208, 208, 255);
+  border-radius: 5px;
+  font-weight: 600;
+}
+.side-items3 {
+  padding: 10px;
+  font-weight: 600;
+}
+.side-items3:hover {
+  background-color: rgb(208, 208, 255);
+  border-radius: 5px;
+  font-weight: 600;
+}
+ .side-items4 {
+  padding: 10px;
+  font-weight: 600;
+}
+.side-items4:hover {
+  background-color: rgb(208, 208, 255);
+  border-radius: 5px;
+  font-weight: 600;
+} 
+.main{
+width: 20%;}
+.parent{
+padding-right: 20px;
+ width: 100%;
+ display: flex;
+}
+.side{
+ width: 20%;
+}
+.sideright{
+width: 80%;
+padding-left: 40px;
+}
+.card-container{
+display: flex;
+}
+.card{
+ margin-right: 20px;
+}
+
+
+
